@@ -2,6 +2,7 @@
 
 :root {
     --brand: #1c477a;
+    --white: #ffffff;
     --dark: #092032;
     --body: #516171;
     --border: rgba(0,0,0,0.08);
@@ -15,10 +16,16 @@ body {
     line-height: 1.7;
 }
 
-h1,h2,h3,h4,h5,h6,
-.display-1,.display-2,.display-3,.display-4 {
+h1,h2,h3,
+.display-1,.display-2{
     font-weight: 700;
     color: var(--dark);
+}
+
+h4,h5,h6,
+.display-3,.display-4{
+    font-weight: 700;
+    color: var(--body)
 }
 
 .bg-cover {
@@ -50,6 +57,10 @@ section {
     color: var(--brand) !important;
 }
 
+.titulo-Carousel{
+    color: var(--white);
+    font-size: 3vh;
+}
 
 .hero-slider .owl-prev,
 .hero-slider .owl-next{

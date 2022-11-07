@@ -1,7 +1,13 @@
+.contenedor {
+    margin-top: -27em;
+    margin-bottom: -17em;
+}
+
 .slider {
-    width: 75vw;
+    /* width: 75vw; */
     height: auto;
-    margin: auto;
+    margin-top: 5px;
+    padding-top: 1px;
     overflow: hidden;
 }
 
