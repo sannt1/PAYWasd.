@@ -68,6 +68,18 @@ section {
     font-size: 3vh;
 }
 
+#milestone {
+    background: linear-gradient(#1c477a, #1c477a), url(../img/bg_banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#milestone h1,
+#milestone p {
+    color: #fff;
+}
+
 .hero-slider .owl-prev,
 .hero-slider .owl-next{
     background-color: rgba(255, 255, 255, 0.3) !important;
